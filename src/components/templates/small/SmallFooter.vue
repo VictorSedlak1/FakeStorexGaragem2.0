@@ -19,7 +19,7 @@ onBeforeRouteUpdate(() => {
       Login
     </RouterLink>
       <router-link to="/Acessorios">
-        <i class="icon mdi mdi-car-seat" /> Acessorio
+        <i class="icon mdi mdi-archive-search-outline" /> Acessorio
       </router-link>
       <router-link to="/Marcas">
         <i class="icon mdi mdi-car-pickup" /> Marcas
