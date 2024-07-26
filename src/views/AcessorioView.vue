@@ -3,7 +3,7 @@ import { ref, reactive, onMounted } from "vue";
 import AcessoriosApi from "@/api/acessorios";
 const acessoriosApi = new AcessoriosApi();
 
-const defaultAcessorio = { id: null, nome: "" };
+const defaultAcessorio = { id: null, descricao: "" };
 const acessorios = ref([]);
 const acessorio = reactive({ ...defaultAcessorio });
 
@@ -37,24 +37,22 @@ async function excluir(id) {
 </script>
 
 <template>
-<div>
-    <h1>Acessorio</h1>
-    <hr />
-    <div class="form">
-        <input type="text" v-model="acessorio.nome" placeholder="Descrição" />
-        <button @click="salvar">Salvar</button>
-        <button @click="limpar">Limpar</button>
-    </div>
-    <hr/>
-    <ul>
-        <li v-for="acessorio in acessorios" :key="acessorio.id">
-        <span @click="editar(acessorio)">
-            ({{ acessorio.id }}) - {{ acessorio.nome }} -
-        </span>
-        <button @click="excluir(nome.id)">X</button>
-        </li>
-    </ul>
-</div>
+  <h1>Acessorio</h1>
+  <hr />
+  <div class="form">
+    <input type="text" v-model="acessorio.descricao" placeholder="Descrição" />
+    <button @click="salvar">Salvar</button>
+    <button @click="limpar">Limpar</button>
+  </div>
+  <hr />
+  <ul>
+    <li v-for="acessorio in acessorios" :key="acessorio.id">
+      <span @click="editar(acessorio)">
+        ({{ acessorio.id }}) - {{ acessorio.descricao }} -
+      </span>
+      <button @click="excluir(acessorio.id)">X</button>
+    </li>
+  </ul>
 </template>
 
 <style scoped>
