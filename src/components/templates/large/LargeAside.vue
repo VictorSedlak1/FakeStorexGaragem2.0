@@ -19,7 +19,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
         <i class="icon mdi mdi-archive-search-outline" /> Acessorio
       </router-link>
       <router-link to="/Marcas">
-        <i class="icon mdi mdi-car-pickup" /> Marcas
+        <i class="icon mdi mdi-car-back" /> Marcas
       </router-link>
       <router-link to="/Cores">
         <i class="icon mdi mdi-invert-colors" /> Cores
