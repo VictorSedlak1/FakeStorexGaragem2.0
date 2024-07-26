@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import LayoutLarge from '@/layouts/LayoutLarge.vue';
+import LayoutFull from '@/layouts/LayoutFull.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: '',
-      component: LayoutLarge,
+      component: LayoutFull,
       children: [
         {
           path: '',

@@ -55,4 +55,6 @@ async function excluir(id) {
   </ul>
 </template>
 
-<style></style>
+<style scoped>
+
+</style>
