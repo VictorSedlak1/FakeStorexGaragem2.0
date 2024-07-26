@@ -56,4 +56,27 @@ async function excluir(id) {
 </template>
 
 
-<style></style>
+
+
+<style scoped>
+  input{
+    border: solid;
+    border-radius: 11px;
+    font-size: 15px;
+  }
+
+  button{
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(201, 200, 200);
+    font-size: 15px;
+    margin-left: 10px;
+
+    
+  }
+
+  button:hover{
+    background-color: white;
+    transition: 0.2s
+  }
+</style>
