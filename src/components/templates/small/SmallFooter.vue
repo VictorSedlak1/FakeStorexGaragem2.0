@@ -18,25 +18,26 @@ onBeforeRouteUpdate(() => {
       <i class="mdi mdi-account" />
       Login
     </RouterLink>
-    <router-link to="/Acessorios">
+      <router-link to="/Acessorios">
         <i class="icon mdi mdi-car-seat" /> Acessorio
       </router-link>
       <router-link to="/Marcas">
         <i class="icon mdi mdi-car-pickup" /> Marcas
       </router-link>
       <router-link to="/Cores">
-        <i class="icon mdi mdi-format-color-fill" /> Cores
+        <i class="icon mdi mdi-invert-colors" /> Cores
       </router-link>
       <router-link to="/Categorias">
         <i class="icon mdi mdi-car-outline" /> Categorias 
       </router-link>
+      
   </div>
   <div class="icons">
     <RouterLink to="/">
       <i class="mdi mdi-home-outline" />
       Home
     </RouterLink>
-    <RouterLink to="/">
+    <RouterLink to="/perfil">
       <i class="mdi mdi-account-circle-outline" />
       Perfil
     </RouterLink>
@@ -68,7 +69,6 @@ onBeforeRouteUpdate(() => {
 #footerMenu a {
     display: flex;
     width: 100%;
-    justify-content: center;
     text-decoration: none;
     color: #282828;
     font-size: 2rem;

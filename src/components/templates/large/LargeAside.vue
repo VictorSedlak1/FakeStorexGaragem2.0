@@ -12,7 +12,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
     </div>
     <div class="divider" />
     <div class="menu">
-      <router-link to="/">
+      <router-link to="/perfil">
         <i class="icon mdi mdi-account-circle-outline" /> Perfil
       </router-link>
       <router-link to="/Acessorios">
@@ -22,7 +22,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
         <i class="icon mdi mdi-car-pickup" /> Marcas
       </router-link>
       <router-link to="/Cores">
-        <i class="icon mdi mdi-format-color-fill" /> Cores
+        <i class="icon mdi mdi-invert-colors" /> Cores
       </router-link>
       <router-link to="/Categorias">
         <i class="icon mdi mdi-car-outline" /> Categorias 
@@ -32,7 +32,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
       </router-link>
     </div>
   </div>
-  <logo-title />
+  <!-- <logo-title /> -->
 </template>
 <style scoped>
 .mb-2 {
