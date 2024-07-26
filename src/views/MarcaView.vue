@@ -40,16 +40,10 @@ async function excluir(id) {
   <h1>Marca</h1>
   <hr />
   <div class="form">
-    <div class="nom">
     <input type="text" v-model="marca.nome" placeholder="nome" />
-  </div>
-    <div class="nac">
     <input type="text" v-model="marca.nacionalidade" placeholder="Nacionalidade" />
-  </div>
-  <div class="botsalvar">
     <button @click="salvar">Salvar</button>
     <button @click="limpar">Limpar</button>
-  </div>
   </div>
   <hr />
   <ul>
@@ -62,15 +56,4 @@ async function excluir(id) {
   </ul>
 </template>
 
-<style>
-
-input{
-  width: 25%;
-  margin-bottom: 10px;
-  border-color: black;
-  border: 3px solid;
-  border-radius: 12px;
-  font-size: 20px;
-}
-
-</style>
+<style></style>

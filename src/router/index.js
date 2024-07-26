@@ -40,6 +40,11 @@ const router = createRouter({
           name: "cores",
           component: () => import('@/views/CorView.vue'),
         },
+        {
+          path: "/perfil",
+          name: "perfil",
+          component: () => import('@/views/PerfilView.vue'),
+        },
       ],
     },
   ],

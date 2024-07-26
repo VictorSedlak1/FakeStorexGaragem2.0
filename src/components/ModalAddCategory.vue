@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { reactive, defineEmits } from 'vue';
 import { useCategoryStore } from '@/stores/category';
 
@@ -109,4 +109,4 @@ const createCategory = async () => {
   cursor: pointer;
   width: 200px;
 }
-</style>
+</style> -->
